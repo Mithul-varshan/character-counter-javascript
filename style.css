@@ -1,0 +1,54 @@
+
+
+body{
+    background: linear-gradient(90deg,rgb(209, 136, 18),rgb(234, 182, 42));
+}
+
+.test{
+    background: linear-gradient(90deg,rgba(252, 235, 138, 0.984),rgb(236, 217, 121));
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 300px;
+    
+}
+h1{
+ 
+  font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+ 
+    text-align: left;
+}
+#input-box{
+    font-size: 20px; 
+    padding: 10px;   
+    width: 550px;    
+    height: 100px;   
+    margin-right: 20px;
+    border-style: solid;
+    border-color: black;
+}
+#letter-count{
+    text-align: left;
+    font-size: x-large;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    width: fit-content;
+}
+#remaining{
+    text-align: right;
+    font-size: x-large;
+    margin-right: 60px;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    width: fit-content;
+    
+
+}
+.div2{
+    display: flex; 
+    justify-content: space-between;
+}
